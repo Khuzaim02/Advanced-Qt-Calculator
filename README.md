@@ -57,3 +57,12 @@ AdvancedCalculator/
 ├── assets/
 │   └── icons/
 └── README.md
+
+Getting Started
+Prerequisites
+
+    C++ compiler (supporting C++11 or newer)
+
+    Qt 5.12+ or Qt Creator IDE
+
+Build Instructions
