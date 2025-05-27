@@ -57,12 +57,65 @@ AdvancedCalculator/
 ├── assets/
 │   └── icons/
 └── README.md
-
-Getting Started
+```
+---
+**Getting Started**
 Prerequisites
 
-    C++ compiler (supporting C++11 or newer)
+Make sure you have the following installed:
 
     Qt 5.12+ or Qt Creator IDE
 
-Build Instructions
+    A C++ compiler (GCC, Clang, MSVC – with C++11 support)
+
+    Git (optional but recommended)
+
+Installation & Build Instructions
+Option 1: Using Qt Creator (Recommended)
+
+    Clone the repository:   git clone https://github.com/yourusername/Advanced-Qt-Calculator.git cd Advanced-Qt-Calculator
+
+Open the .pro file in Qt Creator:
+
+    File > Open File or Project > Select AdvancedCalculator.pro
+    Click Configure Project and then Run (green triangle).
+
+
+
+Click Configure Project and then Run (green triangle).
+
+Option 2: Using Command Line
+
+      git clone https://github.com/yourusername/Advanced-Qt-Calculator.git
+      cd Advanced-Qt-Calculator
+      qmake
+      make
+      ./AdvancedCalculator
+
+---
+❗ Troubleshooting
+   If qmake is not found, ensure Qt is installed and added to your system PATH.
+   On Windows, use mingw32-make instead of make if you're using the MinGW version of Qt.
+
+👤 Author
+
+**Muhammad Khuzaim**
+Email: muhammadkhuzaim50@gmail.com
+GitHub: github.com/khuzaim02  
+      
+
+    
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
